@@ -5,8 +5,9 @@
 **SOLUTION TASK**
 ---
 Firstly, find the minimum and maximum element of our list:
->min_st = min(strs)                                    
->max_st = max(strs)
+   
+    min_st = min(strs)                                    
+    max_st = max(strs)
 
 When we found the minimum and maximum (first or last character number in ASCII),
 we will check the similiarity of these words:
