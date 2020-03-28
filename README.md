@@ -32,3 +32,7 @@ Else we output empty string.
 In picture we can see runtime our program and memory usage.
 ![](https://github.com/chichikow/first/blob/master/test-picture.PNG)
 
+**INPUT/OUTPUT**
+
+![](https://github.com/chichikow/first/blob/master/test_picture.PNG)
+
