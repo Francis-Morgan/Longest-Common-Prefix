@@ -21,3 +21,6 @@ we will check the similiarity of these words:
     return min_st
 
 If the maximum and minimum elements are the same then all the words in this list begin with the same letter and so on.
+
+**TEST PROGRAM**
+
