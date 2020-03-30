@@ -6,9 +6,13 @@ We need write a function to find the longest common prefix string amongst an arr
 
 **SOLUTION TASK**
 ---
-We use min () and max () for array strings. We get the first and last word in the array.
-If the first character in the last word and in the first word matches, we will check the next character. 
-
+#### Algorithm for solving
+We use min () and max () for array strings. We get the first and last word in the array 
+(off the index of course, but by the number of the first character in the ASCII).
+If the first character in the last word and in the first word matches, we will check the next character.
+It's obvious that if the first and last word are different, they don't have the first common symbol.
+And if they match, all words in the list start with the same symbol.
+#### Code explanation
 Firstly, find the minimum and maximum element of our list:
    
     min_st = min(strs)                                    
