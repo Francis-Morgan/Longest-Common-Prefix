@@ -13,6 +13,3 @@ class Solution(object):
             if max_st[i] != min_st[i]:           # check the words for similarity
                 return max_st[:i]                # if the character no same - output longest common prefix 
         return min_st                            # if the words match exactly, return shorter of them
-    
-arr = Solution()
-print(arr.longestCommonPrefix(['fly','flower','flame']))
