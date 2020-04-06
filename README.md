@@ -4,7 +4,7 @@
 
 We need write a function to find the longest common prefix string amongst an array of strings.
 
-For example, an array is given: ['sunset','superstition','surname']. Our function must return it: 'su', because 'su' - longest common prefix. 
+For example, an array is given: ['sunset','superstition','surname']. Our function must return it: 'su', because 'su' - longest common prefix of these words. 
 
 **SOLUTION TASK**
 ---
