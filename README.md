@@ -1,4 +1,4 @@
-# first
+# Longest-Common-Prefix
 **Task:**
 [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
