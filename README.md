@@ -16,18 +16,19 @@ It's obvious that if the first and last word are different, they don't have the 
 And if they match, all words in the list start with the same symbol.
 #### Code explanation
 Firstly, find the minimum and maximum element of our list:
-   
+ ```python  
     min_st = min(strs)                                    
     max_st = max(strs)
-
+```
 When we found the minimum and maximum (first or last character number in ASCII),
 we will check the similiarity of these words:
 
-
+```python
     for i in range(len(min_st)):
         if max_st[i] != min_st[i]:
             return max_st[:i]
     return min_st
+```
 
 The number of iterations is equal to the length of the minimum word, because if our words match, we must output what is shorter.
 If the maximum and minimum elements are the same then all the words in this list begin with the same letter and so on.
